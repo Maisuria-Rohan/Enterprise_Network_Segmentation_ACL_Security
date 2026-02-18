@@ -4,6 +4,10 @@ This project demonstrates the design and security hardening of a segmented enter
 
 The objective was to simulate a structured corporate network with controlled inter-department communication and guest network isolation.
 
+
+<img width="438" height="260" alt="Picture1" src="https://github.com/user-attachments/assets/f4055d5a-9bd3-4910-bc71-7dffde39d125" />
+
+
 **Network Architecture**
 **Components:**
  - Central Switch
@@ -66,20 +70,25 @@ Blocked Guest Wi-Fi users from accessing all internal VLANs while still allowing
 <img width="1368" height="984" alt="Screenshot 2026-02-17 at 10 16 53 PM" src="https://github.com/user-attachments/assets/186830f1-f003-4cff-9eef-0d33cf4fdbbf" />
 
 
+
 **show ip interface brief**
 <img width="1356" height="428" alt="Screenshot 2026-02-17 at 10 21 26 PM" src="https://github.com/user-attachments/assets/17f50aa3-8fd7-45d3-ae13-261e8a64eec3" />
+
 
 
 **show ip dhcp pool**
 <img width="1332" height="1278" alt="Screenshot 2026-02-17 at 10 22 21 PM" src="https://github.com/user-attachments/assets/1dc96343-d725-440e-a610-81c022ff1cef" />
 
 
+
 **show ip dhcp binding**
 <img width="910" height="246" alt="Screenshot 2026-02-17 at 10 23 04 PM" src="https://github.com/user-attachments/assets/58f69231-cb83-493e-afaa-e86c94351d44" />
 
 
+
 **show access-lists**
 <img width="1377" height="510" alt="Screenshot 2026-02-17 at 10 37 56 PM" src="https://github.com/user-attachments/assets/02687823-7141-479b-b8b2-956280b56777" />
+
 
 
 **show running-config**
@@ -88,7 +97,9 @@ Blocked Guest Wi-Fi users from accessing all internal VLANs while still allowing
 <img width="1372" height="1186" alt="Screenshot 2026-02-17 at 10 44 15 PM" src="https://github.com/user-attachments/assets/59407103-a229-446e-9f61-1c3e657c45ca" />
 
 
+
 Tested inter-VLAN communication before and after ACL enforcement.
+
 
 # Skills Demonstrated
 - Network segmentation
