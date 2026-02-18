@@ -101,8 +101,8 @@ Tested inter-VLAN communication before and after ACL enforcement.
 
 
 # Skills Demonstrated
--- Network segmentation
--- Layer 2 and Layer 3 design
+- Network segmentation
+- Layer 2 and Layer 3 design
 - Router-on-a-stick configuration
 - DHCP implementation
 - Standard ACL configuration
