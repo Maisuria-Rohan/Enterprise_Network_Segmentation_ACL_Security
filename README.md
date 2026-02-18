@@ -64,34 +64,34 @@ Blocked Guest Wi-Fi users from accessing all internal VLANs while still allowing
 
 
 # Testing and Validation
-**show vlan brief & show interfaces trunk**
+- show vlan brief & show interfaces trunk
 <img width="800" height="500" alt="Screenshot 2026-02-17 at 10 19 01 PM" src="https://github.com/user-attachments/assets/f35241ec-6b64-46a2-b7af-915b310a75f2" />
 <img width="800" height="500" alt="Screenshot 2026-02-17 at 10 17 57 PM" src="https://github.com/user-attachments/assets/ffe02e3d-649d-4efc-ad31-c2727c7a5e1f" />
 <img width="800" height="500" alt="Screenshot 2026-02-17 at 10 16 53 PM" src="https://github.com/user-attachments/assets/186830f1-f003-4cff-9eef-0d33cf4fdbbf" />
 
 
 
-**show ip interface brief**
+- show ip interface brief
 <img width="800" height="300" alt="Screenshot 2026-02-17 at 10 21 26 PM" src="https://github.com/user-attachments/assets/17f50aa3-8fd7-45d3-ae13-261e8a64eec3" />
 
 
 
-**show ip dhcp pool**
+- show ip dhcp pool
 <img width="800" height="600" alt="Screenshot 2026-02-17 at 10 22 21 PM" src="https://github.com/user-attachments/assets/1dc96343-d725-440e-a610-81c022ff1cef" />
 
 
 
-**show ip dhcp binding**
+- show ip dhcp binding
 <img width="800" height="200" alt="Screenshot 2026-02-17 at 10 23 04 PM" src="https://github.com/user-attachments/assets/58f69231-cb83-493e-afaa-e86c94351d44" />
 
 
 
-**show access-lists**
+- show access-lists 
 <img width="800" height="500" alt="Screenshot 2026-02-17 at 10 37 56 PM" src="https://github.com/user-attachments/assets/02687823-7141-479b-b8b2-956280b56777" />
 
 
 
-**show running-config**
+- show running-config
 <img width="800" height="600" alt="Screenshot 2026-02-17 at 10 44 34 PM" src="https://github.com/user-attachments/assets/efb4d8a5-f26e-4cf1-9f91-1b0c4ebde8ac" />
 <img width="800" height="600" alt="Screenshot 2026-02-17 at 10 44 24 PM" src="https://github.com/user-attachments/assets/c444ae35-2c46-4316-8778-c3e53b747e58" />
 <img width="800" height="600" alt="Screenshot 2026-02-17 at 10 44 15 PM" src="https://github.com/user-attachments/assets/59407103-a229-446e-9f61-1c3e657c45ca" />
