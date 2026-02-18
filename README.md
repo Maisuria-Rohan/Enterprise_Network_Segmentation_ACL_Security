@@ -18,7 +18,7 @@ The objective was to simulate a structured corporate network with controlled int
  - Internal Wi-Fi
  - Guest Wi-Fi
 
-**VLAN Design**
+**VLAN Design**<br>
 VLAN 10 – Accounting Staff – 192.168.10.0/24
 VLAN 20 – Accounting Manager – 192.168.20.0/24
 VLAN 30 – HR – 192.168.30.0/24
