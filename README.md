@@ -65,9 +65,9 @@ Blocked Guest Wi-Fi users from accessing all internal VLANs while still allowing
 
 # Testing and Validation
 **show vlan brief & show interfaces trunk**
-<img width="1354" height="1182" alt="Screenshot 2026-02-17 at 10 19 01 PM" src="https://github.com/user-attachments/assets/f35241ec-6b64-46a2-b7af-915b310a75f2" />
-<img width="1382" height="986" alt="Screenshot 2026-02-17 at 10 17 57 PM" src="https://github.com/user-attachments/assets/ffe02e3d-649d-4efc-ad31-c2727c7a5e1f" />
-<img width="1368" height="984" alt="Screenshot 2026-02-17 at 10 16 53 PM" src="https://github.com/user-attachments/assets/186830f1-f003-4cff-9eef-0d33cf4fdbbf" />
+<img width="800" height="600" alt="Screenshot 2026-02-17 at 10 19 01 PM" src="https://github.com/user-attachments/assets/f35241ec-6b64-46a2-b7af-915b310a75f2" />
+<img width="800" height="600" alt="Screenshot 2026-02-17 at 10 17 57 PM" src="https://github.com/user-attachments/assets/ffe02e3d-649d-4efc-ad31-c2727c7a5e1f" />
+<img width="800" height="600" alt="Screenshot 2026-02-17 at 10 16 53 PM" src="https://github.com/user-attachments/assets/186830f1-f003-4cff-9eef-0d33cf4fdbbf" />
 
 
 
