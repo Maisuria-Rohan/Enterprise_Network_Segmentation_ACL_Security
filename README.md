@@ -19,11 +19,11 @@ The objective was to simulate a structured corporate network with controlled int
  - Guest Wi-Fi
 
 **VLAN Design**<br>
-VLAN 10 – Accounting Staff – 192.168.10.0/24
-VLAN 20 – Accounting Manager – 192.168.20.0/24
-VLAN 30 – HR – 192.168.30.0/24
-VLAN 40 – Guest Wi-Fi – 192.168.40.0/24
-Internal Network – 192.168.1.0/24
+VLAN 10 – Accounting Staff – 192.168.10.0/24<br>
+VLAN 20 – Accounting Manager – 192.168.20.0/24<br>
+VLAN 30 – HR – 192.168.30.0/24<br>
+VLAN 40 – Guest Wi-Fi – 192.168.40.0/24<br>
+Internal Network – 192.168.1.0/24<br>
 
 **Inter-VLAN Routing**
 Configured router-on-a-stick using:
@@ -48,14 +48,14 @@ Each subinterface configured with 802.1Q encapsulation and gateway IP.
  - Subnet mask
 
 # ACL-Based Security Policies
-Policy 1 – Restrict Compromised Host
-Blocked specific Accounting Staff device from communicating with Accounting Manager VLAN.
+Policy 1 – Restrict Compromised Host<br>
+Blocked specific Accounting Staff device from communicating with Accounting Manager VLAN.<br>
 
-Policy 2 – HR Protection
-Restricted internal Wi-Fi from accessing HR VLAN except for web server access.
+Policy 2 – HR Protection<br>
+Restricted internal Wi-Fi from accessing HR VLAN except for web server access.<br>
 
-Policy 3 – Guest Isolation
-Blocked Guest Wi-Fi users from accessing all internal VLANs while still allowing website access.
+Policy 3 – Guest Isolation<br>
+Blocked Guest Wi-Fi users from accessing all internal VLANs while still allowing website access.<br>
 
 **ACLs applied outbound on subinterfaces:**
  - VLAN 20 → ACL 1
@@ -101,8 +101,8 @@ Tested inter-VLAN communication before and after ACL enforcement.
 
 
 # Skills Demonstrated
-- Network segmentation
-- Layer 2 and Layer 3 design
+-- Network segmentation
+-- Layer 2 and Layer 3 design
 - Router-on-a-stick configuration
 - DHCP implementation
 - Standard ACL configuration
